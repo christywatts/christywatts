@@ -125,3 +125,14 @@ Use **Shuka red** as the one recurring accent across all pieces (a cloth, a boat
 ## Suggested order
 
 1 → 2 → 10 (crackle skills) → 8 → 9 (impasto water) → 3 → 5 → 4 (multi-figure and color-heavy) → 6 → 7 (graphic pieces).
+
+---
+
+## AI mockups (references only, not finished designs)
+
+- [1. Red on White, Amboseli](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182152_14c8e025-e6b8-4788-bcfb-5539aa6c0406.png)
+- [2. Pink Slip, Lake Natron](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182227_533a93e7-2d72-44e9-ac39-f801eb498294.png)
+- [4. Dye Hard, Fez](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182258_6e425cdf-c896-4f83-97ef-24ee143b5e78.png)
+- [5. Prime Pirogues, Elmina](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182227_6579500e-4171-43ae-9852-b5c3ff3c192c.png)
+- [6. Out of Line, Lagos](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182329_fbf3115a-e24a-4847-b2b7-49e63d3753ca.png)
+- [8. Edge Case, Victoria Falls](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182329_1571dd63-da93-4a77-b877-c0755cc4fa54.png)
