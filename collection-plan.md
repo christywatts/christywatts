@@ -136,3 +136,24 @@ Use **Shuka red** as the one recurring accent across all pieces (a cloth, a boat
 - [5. Prime Pirogues, Elmina](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182227_6579500e-4171-43ae-9852-b5c3ff3c192c.png)
 - [6. Out of Line, Lagos](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182329_fbf3115a-e24a-4847-b2b7-49e63d3753ca.png)
 - [8. Edge Case, Victoria Falls](https://d8j0ntlcm91z4.cloudfront.net/user_2zg9dXmT2x2hqCdjiPsOTyqFTlz/hf_20261101_182329_1571dd63-da93-4a77-b877-c0755cc4fa54.png)
+
+---
+
+## Series 2: The Big Five, East Africa
+
+Same method as above: seen from above, crackle for land, knife strokes for grass, one moment, long shadow. Design studies are in `designs/` (PNG); `designs/src/build.py` regenerates them.
+
+| # | Title | Animal | Place | Ground | Format |
+|---|---|---|---|---|---|
+| 1 | **Seeing Red** | Elephant (red-dusted) | Tsavo, Kenya | Crackle, apricot → deep red gradient | Vertical oval |
+| 2 | **Pride of Place** | Lion, resting | Serengeti, Tanzania | Knife-swept gold bands (pale lemon → amber) | Rectangle, portrait |
+| 3 | **Spot On** | Leopard on acacia branch | Samburu, Kenya | Orange crackle earth; canopy in dabbed greens | Rectangle, portrait |
+| 4 | **Herd Mentality** | Buffalo herd, 11 in a line | Ngorongoro Crater, Tanzania | Pink soda-flat crackle, red crust corner | Rectangle, landscape |
+| 5 | **Black & White** | Black rhino + calf | Amboseli, Kenya | White salt-pan crackle; one red-shuka herder | Rectangle, portrait |
+
+Notes for painting them:
+- **Tsavo** elephants are famous for red dust, so the elephant is a lighter dusty red than the ground. The contrast comes from value and the shadow, not hue.
+- **Lion:** the mane is short dark knife flicks around a pale face. Read it as texture, not outline.
+- **Leopard:** paint the canopy last with a round brush in dabs, leaving gaps so the leopard and branch show through.
+- **Buffalo:** keep them near-black with a brown horn boss. The herd line runs low-left to high-right to pull the eye across.
+- **Rhino:** the only cool palette in the set. The single red figure is the series' accent and a scale reference.
