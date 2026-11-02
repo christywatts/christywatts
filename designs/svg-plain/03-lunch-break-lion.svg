@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c2"/><stop offset="1" stop-color="#fbe08a"/></linearGradient>
+<linearGradient id="gnd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f9a63"/><stop offset="1" stop-color="#1d7a4c"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="1.6"/></filter>
+<filter id="wave"><feTurbulence type="fractalNoise" baseFrequency="0.01 0.3" numOctaves="1" seed="4"/>
+  <feDisplacementMap in="SourceGraphic" scale="6"/><feGaussianBlur stdDeviation="0.8"/></filter>
+<filter id="drop" x="-10%" y="-10%" width="120%" height="125%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+  <feOffset dy="14"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+  <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cv"><rect x="150" y="150" width="900" height="1140"/></clipPath>
+</defs>
+<rect width="1200" height="1500" fill="#f3f1ed"/>
+<g filter="url(#drop)"><rect x="128" y="128" width="944" height="1184" fill="#c9a77c"/></g>
+<rect x="136" y="136" width="928" height="1168" fill="#2b2622"/>
+<g clip-path="url(#cv)">
+  <rect x="150" y="150" width="900" height="594" fill="url(#sky)"/>
+  <rect x="150" y="743" width="900" height="547" fill="url(#gnd)"/>
+  <g transform="translate(560,765.3) matrix(1,0,1.7,-0.32,0,0) scale(1.25) " opacity="0.28" filter="url(#blur)"><g fill="#1a1020">
+<path d="M-50,-16 C-66,-12 -76,-6 -88,-4" stroke="#1a1020" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="-90" cy="-4" rx="4" ry="3.5" fill="#1a1020"/>
+<path d="M-56,-14 C-58,-34 -40,-42 -20,-40 L30,-38 C44,-36 50,-26 48,-12 L46,0 L-50,0 C-56,-2 -56,-8 -56,-14Z" fill="#1a1020"/>
+<ellipse cx="-38" cy="-16" rx="20" ry="16" fill="#1a1020" opacity="0.35"/>
+<path d="M30,-6 L74,-6 C80,-6 80,0 74,0 L30,0Z" fill="#1a1020"/>
+<path d="M26,-30 C24,-56 44,-70 60,-64 C76,-58 78,-38 70,-24 C62,-14 40,-12 30,-18Z" fill="#1a1020"/>
+<path d="M50,-50 C56,-58 70,-56 74,-48 L80,-36 C80,-30 74,-28 68,-28 C58,-28 50,-34 50,-50Z" fill="#1a1020"/>
+<path d="M54,-54 l2,-6 l5,4Z" fill="#1a1020"/>
+<circle cx="68" cy="-44" r="1.5" fill="#1a1020"/>
+<ellipse cx="79" cy="-34" rx="2" ry="1.5" fill="#1a1020"/>
+</g></g><g transform="translate(560,765.3) scale(1.25) ">
+<path d="M-50,-16 C-66,-12 -76,-6 -88,-4" stroke="#c48a3f" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="-90" cy="-4" rx="4" ry="3.5" fill="#6a3415"/>
+<path d="M-56,-14 C-58,-34 -40,-42 -20,-40 L30,-38 C44,-36 50,-26 48,-12 L46,0 L-50,0 C-56,-2 -56,-8 -56,-14Z" fill="#c48a3f"/>
+<ellipse cx="-38" cy="-16" rx="20" ry="16" fill="#8a5a26" opacity="0.35"/>
+<path d="M30,-6 L74,-6 C80,-6 80,0 74,0 L30,0Z" fill="#c48a3f"/>
+<path d="M26,-30 C24,-56 44,-70 60,-64 C76,-58 78,-38 70,-24 C62,-14 40,-12 30,-18Z" fill="#6a3415"/>
+<path d="M50,-50 C56,-58 70,-56 74,-48 L80,-36 C80,-30 74,-28 68,-28 C58,-28 50,-34 50,-50Z" fill="#c48a3f"/>
+<path d="M54,-54 l2,-6 l5,4Z" fill="#6a3415"/>
+<circle cx="68" cy="-44" r="1.5" fill="#2a1a0e"/>
+<ellipse cx="79" cy="-34" rx="2" ry="1.5" fill="#3a2010"/>
+</g>
+</g>
+<text x="600" y="1380" text-anchor="middle" font-family="Caladea, 'DejaVu Serif', serif" font-size="40" fill="#2b2622">Lunch Break</text>
+<text x="600" y="1418" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" letter-spacing="3" fill="#8a8178">LION · SAMBURU</text>
+</svg>

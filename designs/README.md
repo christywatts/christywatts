@@ -1,8 +1,5 @@
-# Big Five design studies
+# Design studies
 
-- `bronkhorst-style/`: current direction (knife bands, shaped canvases, tiny figures, no cracks).
-- Root PNGs: earlier crackle-texture studies, kept for reference.
+`kenya-minimal/`: flat two-tone fields with one small animal (current direction).
 
-Use them for layout, color and figure placement, not as painting texture.
-
-Regenerate: `python3 src/build_wb.py && node src/render.js wb` (Bronkhorst style) or `python3 src/build.py && node src/render.js` (crackle). Needs Playwright.
+Regenerate: `python3 src/build_plain.py && node src/render.js plain` (needs Playwright).

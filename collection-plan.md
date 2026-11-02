@@ -139,22 +139,21 @@ Use **Shuka red** as the one recurring accent across all pieces (a cloth, a boat
 
 ---
 
-## Series 2: The Big Five, East Africa (Bronkhorst style, no cracks)
+## Series 2: Kenya, Minimal
 
-Thick palette-knife bands of near-pure color, shaped canvases, white shadow-box frames, and a figure so small you have to step closer. Design studies: `designs/bronkhorst-style/` (regenerate with `python3 designs/src/build_wb.py && node designs/src/render.js wb`).
+A plain, flat field split by a horizon, with one small animal on it and a cast shadow or reflection. No texture. Office-pun titles in the Hannawaves spirit. Designs: `designs/kenya-minimal/` (regenerate with `python3 designs/src/build_plain.py && node designs/src/render.js plain`).
 
-| # | Title | Animal | Place | Surface | Format |
-|---|---|---|---|---|---|
-| 1 | **Seeing Red** | Elephant | Tsavo, Kenya | Arched knife bands, cream → orange → deep oxblood | Vertical oval (pill) |
-| 2 | **Pride of Place** | Lion, resting | Serengeti, Tanzania | Horizontal gold bands, pale butter → amber | Semicircle |
-| 3 | **Spot On** | Leopard on a canopy dab | Samburu, Kenya | Sand bands under thick green knife dabs (acacia canopy from above) | Square, shadow box |
-| 4 | **Herd Mentality** | 9 buffalo in a rising line | Ngorongoro Crater, Tanzania | Horizontal pink bands, blush → flamingo | Long landscape panel, shadow box |
-| 5 | **Plus One** | Black rhino (left), calf (right) | Amboseli, Kenya | Cream diagonal sweeps, one ridge per stroke | Diptych, two squares |
+| # | Title | Animal | Place | Sky | Ground | Horizon |
+|---|---|---|---|---|---|---|
+| 1 | **Higher Management** | Giraffe | Maasai Mara | Peach → apricot | Tangerine → burnt orange | 56% down |
+| 2 | **Trunk Call** | Elephant | Amboseli | Blush → pale rose | Magenta-rose | 60% down |
+| 3 | **Lunch Break** | Lion, lying down | Samburu | Butter yellow | Emerald green | 52% down |
+| 4 | **Do Not Disturb** | Rhino, wading | Lewa | Pale aqua | Cobalt blue (water, with reflection) | 58% down |
+
+Note: the classic Big Five are lion, leopard, elephant, rhino and buffalo. Giraffe isn't one, but it suits this format best. Leopard and buffalo can be added as #5 and #6.
 
 How to paint them:
-- **Paint body:** heavy-body acrylic mixed about 1:1 with heavy gel (or modeling paste for the thickest ridges). Mix every band's color in advance, about 1 cup per band on a 60 cm canvas.
-- **One pass per band:** load a wide knife (10–15 cm), lay it flat, and pull across in one stroke, lifting at the end so the paint piles into a ridge. Each new band overlaps the last one's edge. Never rework a stroke; the ridges are the design.
-- **Arcs (oval):** pivot the knife from your elbow so each band curves. Work from the top down, lightest to darkest.
-- **Dabs (leopard):** press a loaded trowel knife down and twist slightly; don't drag. Leave sand showing between dabs.
-- **Figures:** let the paint cure 2–3 days, then either paint the animal at 1.5–3 cm with a 000 brush, or glue on a hand-painted 1:87 (HO-scale) figurine, which is Bronkhorst's actual method. Add a small, soft cast shadow with a thin glaze.
-- **Frames:** white floater or shadow-box frames, with a 3–5 cm gap around the canvas. Shaped canvases (oval, semicircle) hang unframed.
+- **Background:** two flat colors in soft-body acrylic. Blend each one slightly top to bottom while wet using a wide soft brush or a roller. Mask the horizon with tape for a crisp line.
+- **Animal:** sketch it from a real side-view photo, scaled to about 15–20% of the canvas height. Paint it in 3 values (base, shadow, highlight). The detail goes only here.
+- **Shadow:** a thin transparent glaze of the ground color plus a little violet, long and low. For the rhino, paint a softened, broken reflection instead.
+- **Frame:** a dark floater frame with an oak edge.

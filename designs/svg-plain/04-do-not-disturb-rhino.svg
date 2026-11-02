@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3f6f6"/><stop offset="1" stop-color="#bfe8ea"/></linearGradient>
+<linearGradient id="gnd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f64c4"/><stop offset="1" stop-color="#1d4596"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="1.6"/></filter>
+<filter id="wave"><feTurbulence type="fractalNoise" baseFrequency="0.01 0.3" numOctaves="1" seed="4"/>
+  <feDisplacementMap in="SourceGraphic" scale="6"/><feGaussianBlur stdDeviation="0.8"/></filter>
+<filter id="drop" x="-10%" y="-10%" width="120%" height="125%"><feGaussianBlur in="SourceAlpha" stdDeviation="12"/>
+  <feOffset dy="14"/><feComponentTransfer><feFuncA type="linear" slope="0.25"/></feComponentTransfer>
+  <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cv"><rect x="150" y="150" width="900" height="1140"/></clipPath>
+</defs>
+<rect width="1200" height="1500" fill="#f3f1ed"/>
+<g filter="url(#drop)"><rect x="128" y="128" width="944" height="1184" fill="#c9a77c"/></g>
+<rect x="136" y="136" width="928" height="1168" fill="#2b2622"/>
+<g clip-path="url(#cv)">
+  <rect x="150" y="150" width="900" height="662" fill="url(#sky)"/>
+  <rect x="150" y="811" width="900" height="479" fill="url(#gnd)"/>
+  <g transform="translate(600,833.7) scale(1.25,-1.125) scale(-1,1)" opacity="0.32" filter="url(#wave)">
+<path d="M-52,-50 Q-58,-36 -54,-26" stroke="#57524e" stroke-width="2" fill="none"/>
+<rect x="-42" y="-28" width="15" height="28" rx="4" fill="#57524e"/>
+<rect x="22" y="-28" width="15" height="28" rx="4" fill="#57524e"/>
+<path d="M-54,-38 C-56,-62 -30,-72 0,-70 C20,-72 36,-74 46,-62 C54,-52 52,-34 40,-26 L-44,-24 C-52,-26 -54,-32 -54,-38Z" fill="#7b7570"/>
+<rect x="-30" y="-28" width="15" height="28" rx="4" fill="#7b7570"/>
+<rect x="32" y="-28" width="15" height="28" rx="4" fill="#7b7570"/>
+<path d="M40,-58 C54,-62 70,-52 84,-36 C88,-30 86,-22 78,-20 C66,-18 52,-24 42,-30Z" fill="#7b7570"/>
+<path d="M48,-60 l-4,-12 l9,8Z M56,-60 l0,-11 l6,9Z" fill="#57524e"/>
+<path d="M76,-34 C80,-46 86,-56 92,-62 C90,-50 88,-40 84,-30Z" fill="#d9cfbf"/>
+<path d="M66,-42 C68,-48 70,-52 73,-55 C73,-49 72,-44 70,-40Z" fill="#d9cfbf"/>
+<path d="M10,-68 C2,-54 0,-40 4,-28" stroke="#57524e" stroke-width="1.5" fill="none" opacity="0.6"/>
+<circle cx="64" cy="-46" r="1.5" fill="#2a2622"/>
+</g><g transform="translate(600,833.7) scale(1.25) scale(-1,1)">
+<path d="M-52,-50 Q-58,-36 -54,-26" stroke="#57524e" stroke-width="2" fill="none"/>
+<rect x="-42" y="-28" width="15" height="28" rx="4" fill="#57524e"/>
+<rect x="22" y="-28" width="15" height="28" rx="4" fill="#57524e"/>
+<path d="M-54,-38 C-56,-62 -30,-72 0,-70 C20,-72 36,-74 46,-62 C54,-52 52,-34 40,-26 L-44,-24 C-52,-26 -54,-32 -54,-38Z" fill="#7b7570"/>
+<rect x="-30" y="-28" width="15" height="28" rx="4" fill="#7b7570"/>
+<rect x="32" y="-28" width="15" height="28" rx="4" fill="#7b7570"/>
+<path d="M40,-58 C54,-62 70,-52 84,-36 C88,-30 86,-22 78,-20 C66,-18 52,-24 42,-30Z" fill="#7b7570"/>
+<path d="M48,-60 l-4,-12 l9,8Z M56,-60 l0,-11 l6,9Z" fill="#57524e"/>
+<path d="M76,-34 C80,-46 86,-56 92,-62 C90,-50 88,-40 84,-30Z" fill="#d9cfbf"/>
+<path d="M66,-42 C68,-48 70,-52 73,-55 C73,-49 72,-44 70,-40Z" fill="#d9cfbf"/>
+<path d="M10,-68 C2,-54 0,-40 4,-28" stroke="#57524e" stroke-width="1.5" fill="none" opacity="0.6"/>
+<circle cx="64" cy="-46" r="1.5" fill="#2a2622"/>
+</g>
+</g>
+<text x="600" y="1380" text-anchor="middle" font-family="Caladea, 'DejaVu Serif', serif" font-size="40" fill="#2b2622">Do Not Disturb</text>
+<text x="600" y="1418" text-anchor="middle" font-family="Inter, sans-serif" font-size="17" letter-spacing="3" fill="#8a8178">RHINO · LEWA</text>
+</svg>

@@ -3,8 +3,9 @@ const { chromium } = require('playwright');
 const fs = require('fs'), path = require('path');
 (async () => {
   const root = path.resolve(__dirname, '..');
-  const sub = process.argv[2] === 'wb' ? 'svg-wb' : 'svg';
-  const outDir = process.argv[2] === 'wb' ? path.join(root, 'bronkhorst-style') : root;
+  const mode = process.argv[2];
+  const sub = { wb: 'svg-wb', plain: 'svg-plain' }[mode] || 'svg';
+  const outDir = { wb: path.join(root, 'bronkhorst-style'), plain: path.join(root, 'kenya-minimal') }[mode] || root;
   fs.mkdirSync(outDir, { recursive: true });
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1200, height: 1500 } });
