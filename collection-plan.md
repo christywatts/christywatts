@@ -139,21 +139,22 @@ Use **Shuka red** as the one recurring accent across all pieces (a cloth, a boat
 
 ---
 
-## Series 2: The Big Five, East Africa
+## Series 2: The Big Five, East Africa (Bronkhorst style, no cracks)
 
-Same method as above: seen from above, crackle for land, knife strokes for grass, one moment, long shadow. Design studies are in `designs/` (PNG); `designs/src/build.py` regenerates them.
+Thick palette-knife bands of near-pure color, shaped canvases, white shadow-box frames, and a figure so small you have to step closer. Design studies: `designs/bronkhorst-style/` (regenerate with `python3 designs/src/build_wb.py && node designs/src/render.js wb`).
 
-| # | Title | Animal | Place | Ground | Format |
+| # | Title | Animal | Place | Surface | Format |
 |---|---|---|---|---|---|
-| 1 | **Seeing Red** | Elephant (red-dusted) | Tsavo, Kenya | Crackle, apricot → deep red gradient | Vertical oval |
-| 2 | **Pride of Place** | Lion, resting | Serengeti, Tanzania | Knife-swept gold bands (pale lemon → amber) | Rectangle, portrait |
-| 3 | **Spot On** | Leopard on acacia branch | Samburu, Kenya | Orange crackle earth; canopy in dabbed greens | Rectangle, portrait |
-| 4 | **Herd Mentality** | Buffalo herd, 11 in a line | Ngorongoro Crater, Tanzania | Pink soda-flat crackle, red crust corner | Rectangle, landscape |
-| 5 | **Black & White** | Black rhino + calf | Amboseli, Kenya | White salt-pan crackle; one red-shuka herder | Rectangle, portrait |
+| 1 | **Seeing Red** | Elephant | Tsavo, Kenya | Arched knife bands, cream → orange → deep oxblood | Vertical oval (pill) |
+| 2 | **Pride of Place** | Lion, resting | Serengeti, Tanzania | Horizontal gold bands, pale butter → amber | Semicircle |
+| 3 | **Spot On** | Leopard on a canopy dab | Samburu, Kenya | Sand bands under thick green knife dabs (acacia canopy from above) | Square, shadow box |
+| 4 | **Herd Mentality** | 9 buffalo in a rising line | Ngorongoro Crater, Tanzania | Horizontal pink bands, blush → flamingo | Long landscape panel, shadow box |
+| 5 | **Plus One** | Black rhino (left), calf (right) | Amboseli, Kenya | Cream diagonal sweeps, one ridge per stroke | Diptych, two squares |
 
-Notes for painting them:
-- **Tsavo** elephants are famous for red dust, so the elephant is a lighter dusty red than the ground. The contrast comes from value and the shadow, not hue.
-- **Lion:** the mane is short dark knife flicks around a pale face. Read it as texture, not outline.
-- **Leopard:** paint the canopy last with a round brush in dabs, leaving gaps so the leopard and branch show through.
-- **Buffalo:** keep them near-black with a brown horn boss. The herd line runs low-left to high-right to pull the eye across.
-- **Rhino:** the only cool palette in the set. The single red figure is the series' accent and a scale reference.
+How to paint them:
+- **Paint body:** heavy-body acrylic mixed about 1:1 with heavy gel (or modeling paste for the thickest ridges). Mix every band's color in advance, about 1 cup per band on a 60 cm canvas.
+- **One pass per band:** load a wide knife (10–15 cm), lay it flat, and pull across in one stroke, lifting at the end so the paint piles into a ridge. Each new band overlaps the last one's edge. Never rework a stroke; the ridges are the design.
+- **Arcs (oval):** pivot the knife from your elbow so each band curves. Work from the top down, lightest to darkest.
+- **Dabs (leopard):** press a loaded trowel knife down and twist slightly; don't drag. Leave sand showing between dabs.
+- **Figures:** let the paint cure 2–3 days, then either paint the animal at 1.5–3 cm with a 000 brush, or glue on a hand-painted 1:87 (HO-scale) figurine, which is Bronkhorst's actual method. Add a small, soft cast shadow with a thin glaze.
+- **Frames:** white floater or shadow-box frames, with a 3–5 cm gap around the canvas. Shaped canvases (oval, semicircle) hang unframed.

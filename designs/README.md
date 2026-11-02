@@ -1,5 +1,8 @@
 # Big Five design studies
 
-Code-drawn composition studies for Series 2 in `../collection-plan.md`. Use them for layout, color and shadow direction, not as painting texture.
+- `bronkhorst-style/`: current direction (knife bands, shaped canvases, tiny figures, no cracks).
+- Root PNGs: earlier crackle-texture studies, kept for reference.
 
-Regenerate: `python3 src/build.py && node src/render.js` (needs Playwright).
+Use them for layout, color and figure placement, not as painting texture.
+
+Regenerate: `python3 src/build_wb.py && node src/render.js wb` (Bronkhorst style) or `python3 src/build.py && node src/render.js` (crackle). Needs Playwright.

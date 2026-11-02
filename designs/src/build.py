@@ -291,7 +291,8 @@ def p5():
     write("05-black-and-white-amboseli-rhino", canvas_frame(rect_d(x, y, w, h), paint), 55)
 
 
-for f in (p1, p2, p3, p4, p5):
+if __name__ == "__main__":
+  for f in (p1, p2, p3, p4, p5):
     random.seed(f.__name__)
     f()
-print("svgs:", sorted(p.name for p in OUT.iterdir()))
+  print("svgs:", sorted(p.name for p in OUT.iterdir()))
